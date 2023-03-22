@@ -1,4 +1,4 @@
-import Navbar from '../components/Layout/Navbar';
+import NavbarTwo from '../components/Layout/NavbarTwo';
 import BannerArea from '../components/HomeOne/BannerArea';
 import TrendingArea from '../components/HomeOne/TrendingArea';
 import TopSeller from '../components/Common/TopSeller';
@@ -13,7 +13,7 @@ import Copyright from '../components/Common/Copyright';
 const Index = () => {
   return (
     <>
-      <Navbar />
+      <NavbarTwo />
       <BannerArea />
       <TrendingArea />
       <TopSeller />

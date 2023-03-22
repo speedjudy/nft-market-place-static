@@ -10,9 +10,9 @@ const Collection = () => {
     <>
       <NavbarTwo />
       <PageBanner
-        bannerHeading="Recent Collection"
-        parentTitle="Pages"
-        pageTitle="Collection"
+        bannerHeading="Product"
+        parentTitle="Products"
+        pageTitle="Products"
         bg="inner-bg11"
       />
       <CollectionArea />

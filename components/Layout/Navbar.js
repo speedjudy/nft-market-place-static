@@ -93,61 +93,14 @@ const Navbar = () => {
               >
                 <ul className='navbar-nav m-auto'>
                   <li className='nav-item'>
-                    <a href='#' className='nav-link active'>
-                      Home
-                      <i className='ri-arrow-down-s-line'></i>
-                    </a>
-                    <ul className='dropdown-menu'>
-                      <li className='nav-item'>
-                        <Link href='/' activeClassName='active'>
-                          <a className='nav-link active'>Home One</a>
-                        </Link>
-                      </li>
-                      <li className='nav-item'>
-                        <Link href='/index-2' activeClassName='active'>
-                          <a className='nav-link'>Home Two</a>
-                        </Link>
-                      </li>
-                      <li className='nav-item'>
-                        <Link href='/index-3' activeClassName='active'>
-                          <a className='nav-link'>Home Three</a>
-                        </Link>
-                      </li>
-                    </ul>
+                    <Link href='/' activeClassName='active'>
+                      <a className='nav-link'>Home</a>
+                    </Link>
                   </li>
 
                   <li className='nav-item'>
-                    <a href='#' className='nav-link '>
-                      Discover
-                      <i className='ri-arrow-down-s-line'></i>
-                    </a>
-                    <ul className='dropdown-menu'>
-                      <li className='nav-item'>
-                        <Link href='/auction' activeClassName='active'>
-                          <a className='nav-link'>Live Auction</a>
-                        </Link>
-                      </li>
-                      <li className='nav-item'>
-                        <Link href='/discover-1' activeClassName='active'>
-                          <a className='nav-link'>Discover Style One</a>
-                        </Link>
-                      </li>
-                      <li className='nav-item'>
-                        <Link href='/discover-2' activeClassName='active'>
-                          <a className='nav-link'>Discover Style Two</a>
-                        </Link>
-                      </li>
-                      <li className='nav-item'>
-                        <Link href='/item-details' activeClassName='active'>
-                          <a className='nav-link'>Item Details</a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className='nav-item'>
-                    <Link href='/activity' activeClassName='active'>
-                      <a className='nav-link'>Activity</a>
+                    <Link href='/auction' activeClassName='active'>
+                      <a className='nav-link'>Live Auction</a>
                     </Link>
                   </li>
 
